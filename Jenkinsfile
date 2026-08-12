@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        EC2_IP = '<your-ec2-public-ip>'   // replace with your actual IP
+        EC2_IP = '3.110.194.212'   // replace with your actual IP
         EC2_USER = 'ubuntu'
         APP_DIR = '/home/ubuntu/pypulse'
     }
